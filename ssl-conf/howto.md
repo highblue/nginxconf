@@ -39,4 +39,6 @@ sudo nginx -t
 sudo nginx -s reload
 ```
 
-## curl www.nginxdocs.com
+## Add to the /etc/hosts and curl the domain name.
+
+reference [nginx/youtube.video](https://www.youtube.com/watch?v=X3Pr5VATOyA)
