@@ -53,3 +53,7 @@ reference [nginx/youtube.video](https://www.youtube.com/watch?v=X3Pr5VATOyA)
 check the link for more info to configure the server side
 [mozilla.github.io](https://wiki.mozilla.org/Security/Server_Side_TLS)
 
+# 3. Usful links to exercise
+
+Brad Traversy [Steps to deploy a Node.js app to DigitalOcean using PM2, NGINX as a reverse proxy and an SSL from LetsEncryp](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#nodejs-deployment)
+
