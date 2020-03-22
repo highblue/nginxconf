@@ -42,3 +42,10 @@ sudo nginx -s reload
 ## Add to the /etc/hosts and curl the domain name.
 
 reference [nginx/youtube.video](https://www.youtube.com/watch?v=X3Pr5VATOyA)
+
+# SSL Certification tools
+
+## Server-side encryption
+check the link for more info to configure the server side
+[mozilla.github.io](https://wiki.mozilla.org/Security/Server_Side_TLS)
+
