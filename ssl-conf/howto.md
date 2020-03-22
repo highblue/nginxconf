@@ -1,4 +1,4 @@
-# Tested on the rasperry pi and domain example name is set as nginxdocs.com
+# 1.Tested on the rasperry pi and domain example name is set as nginxdocs.com
 
 ## Configure the SSL
 
@@ -43,7 +43,7 @@ sudo nginx -s reload
 
 reference [nginx/youtube.video](https://www.youtube.com/watch?v=X3Pr5VATOyA)
 
-# SSL Certification tools
+# 2.SSL Certification tools
 
 ## Server-side encryption
 check the link for more info to configure the server side
