@@ -1,4 +1,8 @@
-# 1. Tested on the rasperry pi and domain example name is set as nginxdocs.com
+# 1. Configure SSL 
+
+
+example domain: nginxdocs.com
+tested on rasperry pi.
 
 ## Configure the SSL
 
