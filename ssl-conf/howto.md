@@ -60,3 +60,8 @@ Brad Traversy [Steps to deploy a Node.js app to DigitalOcean using PM2, NGINX as
 # 4. Preferred option - using the certbot
 
 refer to the link https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
+
+# 5. Check your cert
+
+if you have successfully publish your website with https, check with this link provided in certbo.eff.org
+https://www.ssllabs.com/ssltest/
