@@ -57,3 +57,6 @@ check the link for more info to configure the server side
 
 Brad Traversy [Steps to deploy a Node.js app to DigitalOcean using PM2, NGINX as a reverse proxy and an SSL from LetsEncryp](https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896#nodejs-deployment)
 
+# 4. Preferred option - using the certbot
+
+refer to the link https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
