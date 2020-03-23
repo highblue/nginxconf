@@ -60,6 +60,11 @@ Brad Traversy [Steps to deploy a Node.js app to DigitalOcean using PM2, NGINX as
 # 4. Preferred option - using the certbot
 
 refer to the link https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
+if you have mutliple domains want to activate, please consider using this
+//Please specify --domains, or --installer that will help in domain names autodiscovery, or --cert-name for an existing certificate name.
+
+example:
+sudo certbot --nginx --domains www.example.com
 
 # 5. Check your cert
 
