@@ -1,8 +1,10 @@
 # For the basic learner
 
-## 1. dynamic modules brief intro 动态模块概述
+## 1. dynamic modules brief intro 动态模块
 
-refer to the official link: https://docs.nginx.com/nginx/admin-guide/dynamic-modules/dynamic-modules/
+- refer to the official link: https://docs.nginx.com/nginx/admin-guide/dynamic-modules/dynamic-modules/
+
+- dynamic modules community worldwide: https://github.com/nginx-modules/
 
 new learning materials will be added
 
