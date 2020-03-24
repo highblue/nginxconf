@@ -6,7 +6,7 @@
 
 - dynamic modules community worldwide: https://github.com/nginx-modules/
 
-new learning materials will be added
+- third party modules into nginx plus https://www.nginx.com/blog/compiling-dynamic-modules-nginx-plus/
 
 ## 2. njs
 
@@ -14,4 +14,7 @@ refer to this link for [learning the njs](https://www.mywaiting.com/weblogs/intr
 
 ## 3. Opentracing
 
+support jaeger/zipkin/datadog
+
 ## 4. Prometheus-njs
+
