@@ -1,4 +1,4 @@
 # nginxconf
 Basic conf settings description
-1. how to encrypt
-2. njs
+1. SSL encrypt
+2. Learning Path
