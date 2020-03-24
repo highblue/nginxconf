@@ -18,3 +18,9 @@ support jaeger/zipkin/datadog
 
 ## 4. Prometheus-njs
 
+## 5. Plugins
+
+HMAC: https://github.com/nginx-modules/ngx_http_hmac_secure_link_module
+
+
+
