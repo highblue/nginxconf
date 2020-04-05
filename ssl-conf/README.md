@@ -4,7 +4,7 @@
 example domain: nginxdocs.com
 tested on rasperry pi.
 
-## Configure the SSL
+1) Configure the SSL
 
 ```bash
 sudo mkdir /etc/nginx/ssl
@@ -12,7 +12,7 @@ sudo chmod 700 /etc/nginx/ssl
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/nginxdocs.key -out /etc/nginx/ssl/nginxdocs.crt
 ```
 
-## Modify the conf
+2) Modify the conf
 
 conf file
 ```conf
@@ -37,19 +37,21 @@ server {
 }
 ```
 
-## Test & Run
+3) Test & Run
+
 ```bash
 sudo nginx -t
 sudo nginx -s reload
 ```
 
-## Add to the /etc/hosts and curl the domain name.
+4) Add to the /etc/hosts and curl the domain name.
 
 reference [nginx/youtube.video](https://www.youtube.com/watch?v=X3Pr5VATOyA)
 
 # 2. SSL Certification tools
 
-## Server-side encryption
+Server-side encryption
+
 check the link for more info to configure the server side
 [mozilla.github.io](https://wiki.mozilla.org/Security/Server_Side_TLS)
 
@@ -70,3 +72,11 @@ sudo certbot --nginx --domains www.example.com
 
 if you have successfully publish your website with https, check with this link provided in certbo.eff.org
 https://www.ssllabs.com/ssltest/
+
+# 6. Useful links to configure the SSL automatically
+
+probably the best tool to configure the SSL and related conf with UI - The easiest way to configure a performant, secure,
+and stable NGINX server from digitalocean.com https://www.digitalocean.com/community/tools/nginx 
+or 
+you can build your own <https://github.com/digitalocean/nginxconfig.io>
+
