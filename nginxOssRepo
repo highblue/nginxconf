@@ -1,0 +1,32 @@
+reference link <https://www.linuxbabe.com/ubuntu/install-nginx-latest-version-ubuntu-18-04>
+
+# Add the repo to Ubuntu default nginx list
+
+## check the repo 
+
+user@nginx:/var/log/ngxscan$ sudo apt -a list nginx
+Listing... Done
+nginx/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.7 all [installed]
+nginx/bionic 1.14.0-0ubuntu1 all
+
+### Add repo
+sudo nano /etc/apt/sources.list.d/nginx.list
+### Add the following two lines in the file.
+deb [arch=amd64] http://nginx.org/packages/mainline/ubuntu/ bionic nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ bionic nginx
+
+>If you use Ubuntu 20.04, then change bionic to focal.
+
+### Get the key
+wget http://nginx.org/keys/nginx_signing.key
+sudo apt-key add nginx_signing.key
+sudo apt update
+
+### Remove the previous installed nginx
+sudo apt remove nginx nginx-common nginx-full nginx-core
+
+### Backup files
+sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.bak
+
+### Enjoy 
+sudo apt install nginx
