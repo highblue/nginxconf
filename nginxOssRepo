@@ -22,6 +22,42 @@ wget http://nginx.org/keys/nginx_signing.key
 sudo apt-key add nginx_signing.key
 sudo apt update
 
+### Check the list
+nginx/stable 1.19.6-1~bionic all [upgradable from: 1.14.0-0ubuntu1.7]
+nginx/stable 1.19.5-1~bionic all
+nginx/stable 1.19.4-1~bionic all
+nginx/stable 1.19.3-1~bionic all
+nginx/stable 1.19.2-1~bionic all
+nginx/stable 1.19.1-1~bionic all
+nginx/stable 1.19.0-1~bionic all
+nginx/stable 1.17.10-1~bionic all
+nginx/stable 1.17.9-1~bionic all
+nginx/stable 1.17.8-1~bionic all
+nginx/stable 1.17.7-1~bionic all
+nginx/stable 1.17.6-1~bionic all
+nginx/stable 1.17.5-1~bionic all
+nginx/stable 1.17.4-1~bionic all
+nginx/stable 1.17.3-1~bionic all
+nginx/stable 1.17.2-1~bionic all
+nginx/stable 1.17.1-1~bionic all
+nginx/stable 1.17.0-1~bionic all
+nginx/stable 1.15.12-1~bionic all
+nginx/stable 1.15.11-1~bionic all
+nginx/stable 1.15.10-1~bionic all
+nginx/stable 1.15.9-1~bionic all
+nginx/stable 1.15.8-1~bionic all
+nginx/stable 1.15.7-1~bionic all
+nginx/stable 1.15.6-1~bionic all
+nginx/stable 1.15.5-1~bionic all
+nginx/stable 1.15.4-1~bionic all
+nginx/stable 1.15.3-1~bionic all
+nginx/stable 1.15.2-1~bionic all
+nginx/stable 1.15.1-1~bionic all
+nginx/stable 1.15.0-1~bionic all
+nginx/bionic-updates,bionic-security,now 1.14.0-0ubuntu1.7 all [installed,upgradable to: 1.19.6-1~bionic]
+nginx/bionic 1.14.0-0ubuntu1 all
+nginx/stable 1.13.12-1~bionic all
+
 ### Remove the previous installed nginx
 sudo apt remove nginx nginx-common nginx-full nginx-core
 
